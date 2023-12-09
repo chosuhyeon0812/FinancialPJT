@@ -53,6 +53,7 @@
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)&nbsp;
 ![VS code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)&nbsp;
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)&nbsp;
+<br>
 
 ## 🖥️ 개발 환경
 
@@ -61,12 +62,12 @@
 - Frontend
   - vue.js 3.3.4
   - vite 4.4.11
-    
+<br>
 
 
 ## 🛢️ DB 설계
 ![Alt text](image.png)
-
+<br>
 
 
 ## 💪 주요 기능
@@ -94,7 +95,7 @@
 - 프로필 페이지 (금융상품 추천 알고리즘)
   - 내가 가입한 정보를 기반으로 금융 상품 추천을 받을 수 있는 페이지 제공
   - 가입한 상품 목록을 조회할 수 페이지 제공
-
+<br>
 
 
 ## 🎁 금융 상품 추천 알고리즘에 대한 기술적 설명
