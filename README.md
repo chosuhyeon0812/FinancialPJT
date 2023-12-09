@@ -28,6 +28,17 @@
   - 예적금 상품 추천 알고리즘 구현
 <br>
 
+
+## 🖥️ 개발 환경
+
+- Backend
+  - django 4.2.4
+- Frontend
+  - vue.js 3.3.4
+  - vite 4.4.11
+<br>
+
+
 ## 🛠️ 기술 스택
 
 ### Backend
@@ -53,15 +64,6 @@
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)&nbsp;
 ![VS code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)&nbsp;
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)&nbsp;
-<br>
-
-## 🖥️ 개발 환경
-
-- Backend
-  - django 4.2.4
-- Frontend
-  - vue.js 3.3.4
-  - vite 4.4.11
 <br>
 
 
@@ -95,18 +97,7 @@
 - 프로필 페이지 (금융상품 추천 알고리즘)
   - 내가 가입한 정보를 기반으로 금융 상품 추천을 받을 수 있는 페이지 제공
   - 가입한 상품 목록을 조회할 수 페이지 제공
-<br>
 
-
-## 🎁 금융 상품 추천 알고리즘에 대한 기술적 설명
-
-저희 알고리즘은 ***사용자의 가입 정보를 기반***으로 현재 사용자의 니즈와 유사한 조건의 상품을 최대 우대 금리를 기준으로 내림차순으로 보여줍니다
-
-1. 사용자가 회원가입 시 입력한 정보(주 거래 은행, 가입 상품, 저축 기간 등)은 axios를 사용하여 Django 서버로 안전하게 전송됩니다.
-
-2.  서버에서 전달받은 정보를 기반으로 최대 우대 금리를 기준으로 한 내림차순 정렬을 수행하여 사용자에게 가장 이익이 되는 상품을 상위에 배치
-   
-3.  사용자가 선택한 저축 기간에 해당하는 상품만을 필터링
 
 4. 사용자가 지정한 주 거래 은행에 해당하는 상품을 필터링( 주거래 은행에 해당하는 상품이 존재하면 이를 사용자에게 제시하고, 그렇지 않은 경우에는 이전 단계에서 필터링한 내역에서 상위 3개의 상품을 추천합니다.)
 
