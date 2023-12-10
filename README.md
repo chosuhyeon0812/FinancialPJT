@@ -68,7 +68,8 @@
 
 
 ## 🛢️ DB 설계
-![Alt text](image.png)
+![image](https://github.com/chosuhyeon0812/FinancialPJT/assets/119795734/a9ad51b7-786b-4184-b011-201c5961f089)
+
 <br>
 
 
